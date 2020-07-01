@@ -28,5 +28,5 @@ def return_string_array(array)
     array[counter]
     counter += 1
   end
-  array
+  array.to_s
 end
